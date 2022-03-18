@@ -12,7 +12,7 @@ function regInput(){
 }
 
 while(true){
-    setTimeout(hentAlle(),1000);
+    setTimeout(hentAlle(),5000);
 }
 
 
