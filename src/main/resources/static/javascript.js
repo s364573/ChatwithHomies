@@ -18,7 +18,7 @@ function hentAlle(){
 }
 
 function formaterChatLog(meldinger){
-    let ut = "<table><tr><th>Navn</th><th>Melding</th></tr>"
+    let ut = "<table class='table table-striped'><tr><th>Navn</th><th>Melding</th></tr>"
 
     for(const melding of meldinger){
         ut+="<tr><td>"+melding.user+"</td><td>"+melding.chat+"</td></tr>";
