@@ -11,9 +11,7 @@ function regInput(){
     $("#inputChat").val("");
 }
 
-while(true){
-    setTimeout(hentAlle(),5000);
-}
+
 
 
 function hentAlle(){
