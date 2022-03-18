@@ -11,7 +11,20 @@ function regInput(){
     $("#inputChat").val("");
 }
 
-    setTimeout(hentAlle(),5000);
+let intervalID;
+
+function startRefresh(){
+    if(!intervalID){
+        intervalID = setInterval(hentAlle,5000);
+    }
+}
+
+function stopRefresh(){
+    clearInterval(intervalID);
+
+    intervalID = null;
+}
+
 
 
 function hentAlle(){
