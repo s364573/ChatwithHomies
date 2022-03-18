@@ -11,8 +11,10 @@ function regInput(){
     $("#inputChat").val("");
 }
 
-
+while(true){
     setTimeout(hentAlle(),1000);
+}
+
 
 function hentAlle(){
     $.get( "/hentAlle",function (chatLog){
