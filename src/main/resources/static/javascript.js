@@ -15,8 +15,9 @@ let intervalID;
 
 function startRefresh(){
     if(!intervalID){
-        intervalID = setInterval(hentAlle,5000);
+        intervalID = setInterval(hentAlle,2000);
     }
+    $("#refr")
 }
 
 function stopRefresh(){
